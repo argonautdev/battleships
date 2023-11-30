@@ -10,6 +10,7 @@ WORKDIR /app
 COPY ["package.json", "package-lock.json*", "./"]
 
 RUN npm install --production
+RUN sleep 180
 
 COPY . .
 
