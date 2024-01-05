@@ -5,7 +5,7 @@ on: [push]
 jobs:
   echo-job:
     timeout-minutes: 15
-    runs-on: warpdev-ubuntu-latest-amd64-2x
+    runs-on: warpdev-ubuntu-latest-amd64-4x
     strategy:
       fail-fast: false
       matrix:
