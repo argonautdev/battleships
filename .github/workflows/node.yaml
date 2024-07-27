@@ -5,7 +5,7 @@ on: [push]
 jobs:
   echo-job:
     timeout-minutes: 15
-    runs-on: warpdev-ubuntu-latest-amd64-4x
+    runs-on: warpdev-custom-high-staticip
     strategy:
       fail-fast: false
       matrix:
